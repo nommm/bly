@@ -1,4 +1,8 @@
 @echo off
+echo "You must to install NodeJs"
+pause
+start "Chrome" chrome --new-window http://127.0.0.1:1880/
+pause
 npm update
 npm i git
 npm update
